@@ -1,1 +1,250 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Tom Appenzeller</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:description" content="" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:image" content="" />
+    <meta name="twitter:url" content="" />
+    <meta name="twitter:card" content="" />
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="shortcut icon" href="favicon.ico" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700"
+      rel="stylesheet"
+    />
+
+    <!--Not sure if the line below is useful-->
+    <script
+      src="https://kit.fontawesome.com/0ab732298a.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="css/animate.css" />
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="css/icomoon.css" />
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <!-- Flexslider  -->
+    <link rel="stylesheet" href="css/flexslider.css" />
+    <!-- Flaticons  -->
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css" />
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <!-- Theme style  -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Modernizr JS -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div id="colorlib-page">
+      <div class="container-wrap">
+        <a
+          href="#"
+          class="js-colorlib-nav-toggle colorlib-nav-toggle"
+          data-toggle="collapse"
+          data-target="#navbar"
+          aria-expanded="false"
+          aria-controls="navbar"
+          ><i></i
+        ></a>
+        <aside
+          id="colorlib-aside"
+          role="complementary"
+          class="border js-fullheight"
+        >
+          <div class="text-center">
+            <div
+              class="author-img"
+              style="background-image: url(images/profile_4.jpg);"
+            ></div>
+            <h1 id="colorlib-logo">
+              <a href="website_blog.html">Tom Appenzeller</a>
+            </h1>
+            <span class="position"
+              ><a href="#"></a>Majoring in Computer Science, Mathematics, and
+              Statistics at Purdue University</span
+            >
+          </div>
+          <nav id="colorlib-main-menu" role="navigation">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li class="active"><a href="website_blog.html">Blog</a></li>
+            </ul>
+          </nav>
+        </aside>
+
+        <div id="colorlib-main">
+          <section class="colorlib-about" data-section="blog">
+            <div class="colorlib-narrow-content">
+              <div class="row">
+                <div class="col-md-12">
+                  <div
+                    class="row row-bottom-padded-sm animate-box"
+                    data-animate-effect="fadeInLeft"
+                  >
+                    <div class="col-md-12">
+                      <div class="about-desc">
+                        <span class="heading-meta">The Big One</span>
+                        <h2 class="colorlib-heading">Stocks</h2>
+                        <p>
+                          <strong>Prop Trading Companies.</strong> They're every CS undergrad's dream internship. To land an interview with one, you need to stand apart from the average applicant.
+                          I thought that there would be no better way to do that than to create an app which is centered around stocks and finance.
+                        </p>
+                        <p>
+                          <strong>03-15-2020: </strong>Created the react app and implemented worldtradingdata's API. This allows me to access any and all current stocks. To test, I allow the user to enter in a stocks
+                          symbol and it outputs that stocks information.
+                        </p>
+                        <p>
+                          <strong>03-16-2020: </strong>One implementation of the api is the ability to perform currency conversions. I was very busy today so I quickly implemented that and called it a day. 
+                        </p>
+                        <p>
+                            <strong>03-17-2020: </strong>I want to be able to find the correlation between two stocks in a given time. If the user supplies two stock's symbols and a period of time (in days), I am
+                            able to return to them the correlatino between the two stocks over the past x days. This is based off of the starting value of the stocks on each day.
+                        </p>
+                        <p>
+                            <strong>03-18-2020: </strong>I am putting off adding an styling to the app. I hate CSS. In the meantime I added user authentication using firebase. I display errors if the user enters in the wrong information.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <a
+                      ><img src="images/weather_main.jpg" class="img-responsive"
+                    /></a>
+                    <p>Above is the main page</p>
+                    <a
+                      ><img
+                        src="images/weather_result1.jpg"
+                        class="img-responsive"
+                    /></a>
+                    <p>
+                      Above is an example of a united states city result. I have
+                      not yet added a state specifier, as I was only aiming for
+                      a base functionality.
+                    </p>
+                    <a
+                      ><img
+                        src="images/weather_result2.jpg"
+                        class="img-responsive"
+                    /></a>
+                    <p>
+                      Here is a second example, but from a different country.
+                    </p>
+                    <a
+                      ><img
+                        src="images/weather_error.jpg"
+                        class="img-responsive"
+                    /></a>
+                    <p>
+                      Here is the error message displayed if the button is
+                      pressed without the fields being filled.
+                    </p>
+                  </div>
+                  <div class="row">
+                    <div
+                      class="col-md-3 animate-box"
+                      data-animate-effect="fadeInLeft"
+                    >
+                      <div class="services color-1">
+                        <span class="icon2"
+                          ><i class="fab fa-linkedin-in"></i
+                        ></span>
+                        <a
+                          href="https://www.linkedin.com/in/tom-appenzeller-7489a9169/"
+                          >Linkedin</a
+                        >
+                      </div>
+                    </div>
+                    <div
+                      class="col-md-3 animate-box"
+                      data-animate-effect="fadeInRight"
+                    >
+                      <div class="services color-1">
+                        <span class="icon2"
+                          ><i class="icon-instagram"></i
+                        ></span>
+                        <a href="https://www.instagram.com/tom_app3/"
+                          >Instagram</a
+                        >
+                      </div>
+                    </div>
+                    <div
+                      class="col-md-3 animate-box"
+                      data-animate-effect="fadeInTop"
+                    >
+                      <div class="services color-1">
+                        <span class="icon2"><i class="icon-github"></i></span>
+                        <a href="https://github.com/tappenze">Github</a>
+                      </div>
+                    </div>
+                    <div
+                      class="col-md-3 animate-box"
+                      data-animate-effects="fadeInBottom"
+                    >
+                      <div class="services color-1">
+                        <span class="icon2"
+                          ><i class="fab fa-snapchat"></i
+                        ></span>
+                        <a href="https://www.snapchat.com/add/tomapp3"
+                          >Snapchat</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <!-- end:colorlib-main -->
+      </div>
+      <!-- end:container-wrap -->
+    </div>
+    <!-- end:colorlib-page -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <!-- jQuery Easing -->
+    <script src="js/jquery.easing.1.3.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Waypoints -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <!-- Flexslider -->
+    <script src="js/jquery.flexslider-min.js"></script>
+    <!-- Owl carousel -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- Counters -->
+    <script src="js/jquery.countTo.js"></script>
+
+    <!-- MAIN JS -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
 
