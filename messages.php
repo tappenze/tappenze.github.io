@@ -1,16 +1,16 @@
 <?php
 
-  $log_file_name = 'my_messages.log';
+if (isset($_POST['submit'])) {
+  $name = $_POST['name'];
+  $mailFrom = $_POST['email'];
+  $subject = $_POST['subject'];
+  $message = $_POST['message'];
 
-  $name = $_POST['Name'];
-  $email = $_POST['Email'];
-  $subject = $_POST['Subject'];
-  $message = $_POST['Message'];
+  $mailTo = "tappenze@purdue.edu";
+  $headers = "Message from website: ".$mailFrom;
 
-  $total_message = "Name: " . $name . ", email: " . $email . ", Subject: " . $subject . ", message: " . $message;
+  $txt = "You have received an email from ".$name."."\n\n".$message;
 
-  file_put_contents($log_file_name, $total_message, FILE_APPEND);
-
-  
-
-  header('Location: /');
+  mail($mailTo, $subject, $txt, $headers);
+  header("Location: index.html?mailsend");
+}
