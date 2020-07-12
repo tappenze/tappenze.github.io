@@ -13,3 +13,5 @@ if (isset($_POST['submit-contact'])) {
 
   mail($mailTo, $subject, $txt, $headers);
 }
+
+//test push
